@@ -17,6 +17,7 @@ def mensagens(client, userdate, msg):
     print(m)
     print(p)
     print("ok")
+    print("ok 2")
 
 client = mqtt.Client(client_id)
 client.username_pw_set(user, password)
